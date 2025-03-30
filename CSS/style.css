@@ -27,3 +27,18 @@ main{
     filter: grayscale(60%);
     transform: scale(1.2);
   }
+
+  .alturadeimagenescarousel{
+
+
+    height: 600px; ;
+    object-fit: cover;
+
+  }
+
+  /* Botones de carousel  */
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: grayscale(100%) brightness(50%);
+}
