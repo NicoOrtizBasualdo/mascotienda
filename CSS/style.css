@@ -27,3 +27,7 @@ main{
     filter: grayscale(60%);
     transform: scale(1.2);
   }
+
+  .colordefondofooter{
+    background: rgb(237, 197, 59);
+  }
