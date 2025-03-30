@@ -14,3 +14,16 @@ flex-direction: column;
 main{
     flex-grow: 1;
 }
+
+.img-circular{
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: 300ms;
+}
+
+.img-circular:hover {
+    filter: grayscale(60%);
+    transform: scale(1.2);
+  }

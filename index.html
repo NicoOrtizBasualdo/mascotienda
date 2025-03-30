@@ -14,11 +14,13 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
         <div class="container-fluid">
-          <a class="navbar-brand fuentedeinicio" href="./index.html">Mascotienda</a>
+          <a class="navbar-brand fuentedeinicio" href="./index.html"
+            >Mascotienda</a
+          >
 
           <!-- Campo de busqueda -->
           <div class="d-flex justify-content-center flex-grow-1">
-            <form class="d-flex w-50">
+            <form class="d-flex w-75">
               <input
                 class="form-control me-2 w-100"
                 type="search"
@@ -31,7 +33,15 @@
             </form>
           </div>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -144,9 +154,56 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="container">
 
-      
+
+      <section class="row pt-4">
+
+        <h1 class="fs-2 text-center text-secondary pb-5"> Categorías</h1>
+
+        <!-- Categoria ropa -->
+        <article class="col-12 col-md-12 col-lg-4 text-center">
+          <a
+            href="./Pages/ropa.html"
+            class="link-secondary link-underline-opacity-0"
+          >
+            <img
+              src="./img/categoriaropa.jpg"
+              alt="Ropa para perros y gatos"
+              class="rounded-circle img-circular"
+            />
+            <h3>Ropa</h3>
+          </a>
+        </article>
+        <!-- Categoria accesorios -->
+        <article class="col-12 col-md-12 col-lg-4 text-center">
+          <a
+            href="./Pages/accesorios.html"
+            class="link-secondary link-underline-opacity-0"
+          >
+            <img
+              src="./img/categoria accesorios.jpg"
+              alt="Accesorios para perros y gatos"
+              class="rounded-circle img-circular"
+            />
+            <h3>Accesorios</h3>
+          </a>
+        </article>
+        <article class="col-12 col-md-12 col-lg-4 text-center">
+          <a
+            href="./Pages/camas.html"
+            class="link-secondary link-underline-opacity-0"
+          >
+            <img
+              src="./img/categoriacamas.jpeg"
+              alt="Camas para perros y gatos"
+              class="rounded-circle img-circular"
+            />
+            <h3>Camas</h3>
+          </a>
+        </article>
+
+      </section>
     </main>
     <footer>&copy; Todos los derechos reservados</footer>
     <script src="./js/bootstrap.min.js"></script>
