@@ -5,48 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Tienda de accesorios para mascotas" />
     <meta name="keywords" content="venta de accesorios online" />
-    <meta name="author" content="Elías Roldan, Nicolas Ortiz" />
+    <meta name="author" content="Elías Roldan,Nicolas Ortiz" />
     <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
     <link rel="stylesheet" href="/CSS/Style.css" />
     <title>MascoTienda</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-light bg-light p-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
         <div class="container-fluid">
-          <!-- Inicio -->
-          <a class="navbar-brand fuentedeinicio" href="./index.html"
-            >Mascotienda</a
-          >
+          <a class="navbar-brand fuentedeinicio" href="./index.html">Mascotienda</a>
 
-          <!-- Campo de busqueda-->
-          <form class="d-flex w-50 me-auto">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Buscar productos"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Buscar
-            </button>
-          </form>
+          <!-- Campo de busqueda -->
+          <div class="d-flex justify-content-center flex-grow-1">
+            <form class="d-flex w-50">
+              <input
+                class="form-control me-2 w-100"
+                type="search"
+                placeholder="Buscar productos"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
 
-          <!-- Boton hamburguesa -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarContent"
-            aria-controls="navbarContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <!-- Links -->
-          <div class="collapse navbar-collapse" id="navbarContent">
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item me-3">
                 <a
@@ -74,10 +64,11 @@
                           aria-label="Cerrar"
                         ></button>
                       </div>
+                      <!-- modal para login -->
                       <div class="modal-body">
                         <form>
                           <div class="mb-3">
-                            <label for="inputUsuario" class="form-label"
+                            <label for="inputUsuario1" class="form-label"
                               >Usuario</label
                             >
                             <input
@@ -98,6 +89,7 @@
                               placeholder="Ingresa tu Contraseña"
                             />
                           </div>
+                          <!-- botones modal-->
                           <button type="submit" class="btn btn-primary">
                             Iniciar Sesión
                           </button>
@@ -116,6 +108,8 @@
                   </div>
                 </div>
               </li>
+              <!-- Fin de modal y siguientes botones  -->
+
               <li class="nav-item me-3">
                 <a class="nav-link" href="registro.html">Crear cuenta</a>
               </li>
