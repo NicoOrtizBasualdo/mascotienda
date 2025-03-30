@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
-.fuentedeinicio{
+.fuentedeinicio {
     font-family: "Bungee Spice", sans-serif;
 }
 
-
-body{
-display: flex;
-min-height: 100vh;
-flex-direction: column;    
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;    
 }
 
-main{
+main {
     flex-grow: 1;
 }
 
-.img-circular{
+.img-circular {
     max-width: 100%;
     width: 400px;
     height: 400px;
@@ -26,4 +25,21 @@ main{
 .img-circular:hover {
     filter: grayscale(60%);
     transform: scale(1.2);
-  }
+}
+
+/* Estilos del footer */
+.colordefondofooter {
+    background: rgb(237, 197, 59);
+}
+
+/* Estilos de categorias */
+.alturadeimagenescarousel {
+    height: 600px;
+    object-fit: cover;
+}
+
+/* Botones de carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: grayscale(100%) brightness(50%);
+}
