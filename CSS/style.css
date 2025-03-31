@@ -58,3 +58,10 @@ main {
     height: 350px;
     object-fit: cover;
   }
+
+  .img-miniatura-carrito{
+
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+  }
