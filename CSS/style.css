@@ -51,3 +51,10 @@ main {
     height: 400px;
     object-fit: cover;
 }
+
+/* ajuste de imagenes en las cards  */
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+  }
